@@ -2,12 +2,12 @@
 Chrome extension that displays the distillery name of The Scotch Malt Whiskey Society Online Shop.
 
 ## Description
-[ザ・スコッチモルトウイスキー・ソサエティオンラインショップ](https://shop.smwsjapan.com/)の蒸留所名を表示するChrome拡張機能です。本Chrome拡張機能をインストールした状態でザ・スコッチモルトウイスキー・ソサエティオンラインショップを表示すると蒸留所コードの下部に蒸留所名が表示されるようになります。
+Chrome extension that displays the distillery name of [The Scotch Malt Whiskey Society Online Shop] (https://www.smwsa.com/). With this Chrome extension installed, you will see the distillery name> at the bottom of the distillery code when you display The Scotch Malt Whiskey Society Online Shop.
 
 ## Usage
-1. srcディレクトリをダウンロード
-2. Google Chromeにて`chrome://extensions/`を開く
-3. 右上の`デベロッパーモード`をオンにする
-4. 画面上部の`パッケージ化されていない拡張機能を読み込む`を選択
-5. ダウンロードしたsrcディレクトリを指定
-6. [ザ・スコッチモルトウイスキー・ソサエティオンラインショップ](https://shop.smwsjapan.com/)にアクセス！
+1. Download src directory
+2. Open `chrome://extensions/` in Google Chrome
+3. Turn 'Developer mode' on the upper right
+4. Select'Install unpackaged extensions` at the top of the screen
+5. Specify downloaded src directory
+6. Visit the [The Scotch Malt Whiskey and Society Online Shop] (https://www.smwsa.com/)!

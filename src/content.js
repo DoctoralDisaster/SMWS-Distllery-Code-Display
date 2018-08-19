@@ -1,6 +1,6 @@
 ﻿$(function () {
 
-    // 蒸留所コード一覧
+    // code mappings
     var map = new Map();
     map.set("1", "Glenfarclas");
     map.set("2", "Glenlivet");
@@ -152,11 +152,25 @@
     map.set("G13", "Chita");
     map.set("G14", "Dumbarton");
     map.set("G15", "Loch Lomond");
-    map.set("B1", "Heaven Hill");
-    map.set("B2", "Bernheim");
-    map.set("B3", "Rock Town");
-    map.set("B4", "FEW Spirits");
-    map.set("B5", "Cascade Hollow");
+    map.set("B1", "Heaven Hill, KY");
+    map.set("B2", "Bernheim, KY");
+    map.set("B3", "Rock Town, AR");
+    map.set("B4", "FEW Spirits, IL");
+    map.set("B5", "George Dickel (Cascade Hollow), TN");
+	map.set("R1", "Port Morant, Jamaica");
+    map.set("R2", "El Dorado (Demerera Distillers), Guyana");
+    map.set("R3", "Mount Gay, Barbados");
+    map.set("R4", "Angostura (Trinidad Distillers), Trinidad");
+    map.set("R5", "Long Pond Distillery, Jamaica");
+    map.set("R6", "Foursquare, Barbados");
+    map.set("R7", "Hampden Distillery, Jamaica");
+    map.set("R8", "Compañía Licorera de Nicaragua (Flor de Caña), Nicaragua");
+    map.set("R9", "Varela Hermanos (Ron Abuelo), Panama");
+    map.set("R10", "Trinidad Distiller’s, Trinidad");
+    map.set("R11", "Worthy Park, Jamaica");
+    map.set("R12", "Unknown, Belize");
+    map.set("RW1", "F.E.W, IL");
+    map.set("GN1", "Makar, Scotland");
 
     var regExp = new RegExp("^\\n?.*? *(.?\\d+)\\.\\d+[ 　]*");
     $("body :not(:has(*))").each(function() {

@@ -1,10 +1,10 @@
 {
   "name": "SMWS Distllery Code Display",
-  "description": "ザ・スコッチモルトウイスキー・ソサエティオンラインショップの蒸留所名を表示します。",
+  "description": "Displays the distillery name of The Scotch Malt Whiskey Society Online Shop.",
   "version": "0.1",
   "manifest_version": 2,
   "content_scripts": [{
-    "matches": ["https://shop.smwsjapan.com/*"],
+    "matches": ["https://www.smwsa.com/*"],
     "js": ["jquery-3.3.1.slim.min.js", "content.js"]
   }]
 }
